@@ -1,0 +1,205 @@
+Customer Name: Abisekh Dey,Contact Number: 8617244589,Gender: Male,Emergency Contact Number: 6289731215,Food Service: 1Name=Abisekh Dey,University Roll No=17632322013,Registration No=123456789012,Year=Third,Gender=Male,Department=ECE,Semester=semestersemester 6
+//1. Printing Statement in Js
+console.log("Abisekh Dey\nIt's My firdt javascript code");
+//2. Addition of 2 numbers in js
+x=2;
+y=8;
+console.log("Sum is:",x+y);
+//3. Operators in js:
+//lenth function can be used only in string or arrays etc if we use this in any number,boolean datatype it will show undefined
+//in js both "integer" and "float" variables are considered as "number" datatype
+a=5;//int
+console.log(a,typeof a,a.length);
+b=5.3;//float
+console.log(b,typeof b,b.length);
+c=true;//boolian
+console.log(c,typeof c,c.length);
+d="Abisekh";//string
+console.log(d,typeof d,d.length);
+e="a";//string 
+console.log(e,typeof e,e.length);
+f=BigInt(1);//bigint datatype
+console.log(f,typeof f,f.length);
+g=Symbol("abisekh");//symbol datatype
+console.log(g,typeof g,g.length);
+let h;//undefined datatype
+console.log(h,typeof h);
+i=null;//null datatype
+console.log(i,typeof i);//in this case the typeof function will show only object
+//4. Variable type in js 
+//use of var (in this case the variable can be updated and can be re asssigned re-declaration can be done here)
+var x=5;
+console.log(x);
+var x=6;
+console.log(x);//in this case it will take the most recent value of x
+x=7;
+console.log(x);//in this case it will take the most recent value of x
+//use of let (in this case the variable can be re-assigned but re-declaration is not allowed here)
+let x=5;
+console.log(x);
+x=6;//re-assigned the value of x
+console.log(x);
+let x=7;
+console.log(x); //this will give error because of re-declaration
+//use of const (in this case the variable can not be re-assigned and re-declared; it only takes the constant value)
+const x=5;
+console.log(x);
+x=6;//re-assigned the value of x
+console.log(x);//this will give error because of re-assignment
+let x=7;
+console.log(x); //this will give error because of re-declaration
+//5. Type casting in js
+var a=5;
+a=String(a);
+console.log(a,typeof a);
+let b="5.0";
+b=Number(b);
+console.log(b,typeof b);
+const c=5;
+c=String(c);
+console.log(c);//this will give error because of re-assignment in previous line
+//6.
+x = 4;
+console.log(`x is: ${x}`);
+//7a. Object datatype similar as dicttionary in python
+const student={
+    name:"Abisekh",
+    roll:17632322013,
+    stream:"ECE",
+}
+console.log(student,typeof student,Object.keys(student),Object.values(student),student.name,student.roll,student.stream,student["name"],student["roll"],student["stream"])
+const len1 =Object.keys(student)
+console.log(len1.length)
+//7b. Object datatype
+const number={
+    "Abisekh Dey" : 8617244589,
+    "Pallabi Mondal" : 6289731215,
+    "Amita Dey" : 9748188514,
+}
+number["Babla Dey"]=7003105772//adding new key
+number["Abisekh Dey"]=123;
+number["Pallabi Mondal"]=456;
+number["Amita Dey"]=789;
+console.log(number,typeof number,Object.keys(number),Object.values(number),number["Abisekh Dey"],number["Pallabi Mondal"],number["Amita Dey"])
+const len2=Object.keys(number)
+console.log(len2.length)
+const moreNumbers = {//adding new object
+    "a": 123,
+    "b": "abc",
+    "c": true
+};
+// Merge the two objects
+Object.assign(number, moreNumbers);//when we merge objects using Object.assign(), the keys are not implicitly converted to strings.thatswhy the keys of the moreNumber object will not be shown in string
+
+console.log(number,typeof number["a"],typeof number["b"],typeof number["c"]);
+//8. Operator in js just same as python
+a=50;
+b=2;
+console.log("a+b",a+b);// addition + 
+console.log("a-b",a-b);// Subtraction -
+console.log("a*b",a*b);// Multiplication *
+console.log("a/b",a/b);// Division /
+console.log("a**b",a**b);// Exponent **
+console.log("a%b",a%b);// Reminder %
+//9a. post increment
+a=2;
+console.log("a++",a++);//Post increment
+console.log("a",a);
+//9b. Pre increment
+a=2;
+console.log("++a",++a);
+console.log("a",a);
+//9c. post increment
+a=2;
+console.log("a--",a--);//Post increment
+console.log("a",a);
+//9d. Pre increment
+a=2;
+console.log("--a",--a);
+console.log("a",a);
+//10a.
+a=2;
+console.log("a+=",a+=2);
+//10b.
+a=2;
+console.log("a-=",a-=2);
+//10c.
+a=2;
+console.log("a*=",a*=2);
+//10d.
+a=2;
+console.log("a/=",a/=2);
+//11. Floor division
+a=5;
+b=Math.floor(a/2)//It only takes the integer part and omits the floating point part
+console.log("Floor Division",b)
+//12. Predict Output
+a=2
+b="2"
+console.log(a==b)//it will be true because in js when i am comparing 2 values are equal or not if one of the value is in string then js compiler make the string into a number(int) first then it compares both if both values are same then return true else false
+//13. Predict Output
+a=2
+b="2"
+console.log(a===b)//This will return false because both are in different datatypes
+console.log(a!==b)//This will return True because both are in different datatypes
+//14. Logical Operator in js
+a=20;
+b=30;
+c=41;
+console.log(a%2==0 && b%2==0)//Logical And
+console.log(a%2==0 || c%2==0)//Logical Or
+console.log(!(a%2==0))//LOgical Not
+//15a. Conditional Statement in js
+let a=2;
+if (a==2){
+    console.log("Hello");
+}
+else{
+    console.log("Bye");
+}
+//15b. Conditional Statement in js
+let a="2";
+if (a==="2"){
+    console.log("Hello");
+}
+else{
+    console.log("Bye");
+}
+//15c. Conditional Statement in js
+let a=2;
+if (a==2){
+    console.log("Hello");
+}
+else if(a==5){
+    console.log("Hii");
+}
+else{
+    console.log("Bye");
+}
+//15d. Conditional Statement in js
+let a=2;
+if (a==2) console.log("Hello");
+
+else if(a==5) console.log("Hii");
+
+else console.log("Bye");
+//Ternary Operator
+let a=2;
+a==2? console.log("Hello"):console.log("Bye");
+let x=promt("Hello");
+console.log(x);
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script src="1.js"></script>
+    
+</body>
+</html>

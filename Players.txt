@@ -1,0 +1,36 @@
+Player List (APL-2024)
+1.Name: Subham Dey (Tunkai);  Phone No: 6289279075
+2.Name: Soumya;  Phone No: 9831569259
+3.Name: Gobinda;  Phone No: 9123909349
+4.Name: Saheb;  Phone No: 6291492672
+5.Name: Avirup;  Phone No: 9748916104
+6.Name: Bubu;  Phone No: 6289092275
+7.Name: Subhojit;  Phone No: 8100172564
+8.Name: Avishek Roy;  Phone No: 9874570600
+9.Name: Laltu;  Phone No: 8617281492
+10.Name: Raj (Amtala);  Phone No: 6291259692
+11.Name: Pramit;  Phone No: 9330270229
+12.Name: Ayan;  Phone No: 8621063282
+13.Name: Dodon;  Phone No: 8777567160
+14.Name: Ghontu;  Phone No: 9804201184
+15.Name: Aniket;  Phone No: 8777657335
+16.Name: Bony;  Phone No: 7980036346
+17.Name: Anup;  Phone No: 8478830951
+18.Name: Anil;  Phone No: 7003766230
+19.Name: Sayan;  Phone No: 7044672496
+20.Name: Avishek Singh;  Phone No: 8240683713
+21.Name: Subhojit Hazra;  Phone No: 9330308991
+22.Name: Bumba Da;  Phone No: 7044141545
+23.Name: Tatai;  Phone No: 6291673133
+24.Name: Tubu Da;  Phone No: 9903660293
+25.Name: Ankit;  Phone No: 7278321018
+26.Name: Vendo;  Phone No: 9330966926
+27.Name: Pritam (Chun);  Phone No: 7980258132
+28.Name: Sambhit;  Phone No: 9330915245
+29.Name: Ritam;  Phone No: 8777399620
+30.Name: Ron;  Phone No: 9748080203
+31.Name: Pritam (Kalyani);  Phone No: 6291754897
+32.Name: Arvind;  Phone No: 9038041464
+33.Name: Raj (Mulajor);  Phone No: 7980106235
+34.Name: Giri Da;  Phone No: 8240025286
+35.Name: Mongoose;  Phone No: 9330868998
